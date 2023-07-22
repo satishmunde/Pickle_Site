@@ -1,0 +1,206 @@
+*{
+    /* font-family: 'Rajdhani', sans-serif; */
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: kalam;
+    
+}
+@font-face {
+    font-family: kalam;
+    src: url(./Kalam/Kalam-Regular.ttf);
+}
+
+
+header{
+    /* border: 2px solid red; */
+    overflow: hidden;
+    width: 99vw;
+    box-sizing: border-box;
+    height: 180px;
+    /* position: relative; */
+    position: sticky;
+    top: -100px;
+    z-index: 1;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #e9ddb8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #dcd3b6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+    
+}
+
+nav{
+    width: 99vw;
+    height: 100px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+
+  top: 0;
+  left: 0;
+
+
+}
+
+.nav2{
+
+    height: 80px;
+    width: 99vw;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+
+#search{
+   
+    font-size: 15px;
+    font-family: kalam;
+    height: 30px;
+    width: 300px;
+    color: #6c5b7b;
+}
+
+.logo{
+    /* border: 2px solid black; */
+    width: 80px;
+    height: 80px;
+
+
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 30px;
+}
+
+.name{
+    
+    font-size: 35px;
+    text-decoration-style: none;
+    font-family: kalam;
+    text-shadow: 2px 2px 39px #6c5b7b;
+  
+    background: -webkit-linear-gradient(#355c7d,#6c5b7b,#c06c84);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+i{
+
+    
+    color: #355c7d;
+    font-size: 24px;
+  
+  
+}
+
+
+
+
+
+
+
+.cat{
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 110px;
+    text-align: center;
+    color: #c06c84;
+   
+}
+.cat:hover{
+    cursor: pointer;
+    /* transform: scale(1.3,1.3); */
+}
+
+.nav2 a{
+    text-decoration: none;
+    font-size: 20px;
+
+ 
+}
+
+
+.footer{
+    height: 85vh;
+    width: 99vw;
+    background-color: black;
+    box-sizing: border-box;
+    
+
+}
+.cname{
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+@font-face {
+    font-family: foot;
+    src: url(./Foldit/Foldit-VariableFont_wght.ttf);
+}
+.cabout{
+    color: white;
+    height: 35%;
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+ 
+    font-size: 30px;
+    text-align: center;
+}
+.footnav{
+    height: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.text{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.ibox{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 300px;
+    height: 40px;
+
+}
+.rights{
+    color: #6c5b7b;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 100;
+}
+i{
+   
+ color: #357d3f;
+ padding: 10px;
+ font-size: 30px;
+    
+}
+
+
+
+
+

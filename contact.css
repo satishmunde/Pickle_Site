@@ -1,0 +1,59 @@
+
+*{
+  /* font-family: 'Rajdhani', sans-serif; */
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: kalam;
+  
+}
+@font-face {
+  font-family: kalam;
+  src: url(./Kalam/Kalam-Regular.ttf);
+}
+.contact form{
+    text-align: center;
+    padding: 5px;
+    border:1px solid black;
+  }
+  
+  .contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact form .inputBox input, .contact form textarea{
+    box-sizing: border-box;
+    padding:15px;
+    /* font-size: 25px; */
+    /* background: coral; */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #e9ddb8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #dcd3b6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-transform: none;
+    margin:10px 0;
+    border: 1px solid black;
+    width: 49%;
+  }
+  
+  .contact form textarea{
+    height: 80%;
+    width: 100%;
+  }
+
+  .btn{
+    display: inline-block;
+    margin-top: 1px;
+    background: coral;
+    color: white;
+    padding:10px 13px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .btn:hover{
+    background: red;
+  }
